@@ -1,0 +1,31 @@
+#right_upper {
+	width:580;
+	height:390;
+	position: relative;
+	margin: 5px;
+	float: left;
+}
+
+#right_lower {
+	float: left;
+	width:580;
+	height:390;
+	position: relative;
+	margin: 5px;
+}
+
+#left_panel {
+	margin: 5;
+	float : left;
+}
+
+#right_panel {
+	float : left;
+
+}
+
+#left_panel p {
+    margin: 5px;
+}
+
+

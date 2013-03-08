@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:\gui\manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\core\management\__init__.py", line 443, in execute_from_command_line
+    utility.execute()
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\core\management\__init__.py", line 382, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\core\management\base.py", line 196, in run_from_argv
+    self.execute(*args, **options.__dict__)
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\core\management\base.py", line 217, in execute
+    translation.activate('en-us')
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\core\management\base.py", line 217, in execute
+    translation.activate('en-us')
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\utils\translation\__init__.py", line 105, in activate
+    return _trans.activate(language)
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\utils\translation\trans_real.py", line 194, in activate
+    _active.value = translation(language)
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\utils\translation\trans_real.py", line 183, in translation
+    default_translation = _fetch(settings.LANGUAGE_CODE)
+  File "C:\jython2.5.3\Lib\site-packages\django-1.4.3-py2.5.egg\django\utils\translation\trans_real.py", line 161, in _fetch
+    apppath = os.path.join(os.path.dirname(app.__file__), 'locale')
+  File "C:\jython2.5.3\Lib\ntpath.py", line 207, in dirname
+    return split(p)[0]
+  File "C:\jython2.5.3\Lib\ntpath.py", line 164, in split
+    d, p = splitdrive(p)
+  File "C:\jython2.5.3\Lib\ntpath.py", line 119, in splitdrive
+    if p[1:2] == ':':
+TypeError: 'NoneType' object is unsubscriptable

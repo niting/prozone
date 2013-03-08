@@ -1,0 +1,19 @@
+<div id="left_panel"> 
+
+<div id="loader" style="display:none;"><img src="{{ STATIC_URL }}ajax-loader.gif" /> </div>
+<div id="general_inputs">
+<form action="." method="post"> {% csrf_token %}
+	{{ form.as_p }}
+</form>
+</div>
+ 
+<p>
+  <label for="time_range">Time Range:</label>
+  <input type="text" id="time_range" style="border: 0; color: #f6931f; font-weight: bold;" />
+</p>
+<div id="slider_range"></div>
+<div id="half_data">
+	<!-- Half Time at : <div id="half_time_value"></div>
+	Full Time at : <div id="full_time_value"></div> -->
+</div>
+</div>

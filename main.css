@@ -1,0 +1,31 @@
+#right_upper {
+	width:640;
+	height:480;
+	position: relative;
+	border: solid black;
+	margin: 5px;
+	float: left;
+}
+
+#right_lower {
+	float: left;
+	width:640;
+	height:480;
+	position: relative;
+	border: solid black;
+	margin: 5px;
+}
+
+#left_panel {
+	float : left;
+}
+
+#right_panel {
+	float : left;
+
+}
+
+#left_panel p {
+    margin: 5px;
+    float : left;
+}
